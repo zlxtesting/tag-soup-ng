@@ -1,6 +1,5 @@
 export * from './createSaxParser';
 export * from './createDomParser';
-export { parseFragment, serialize } from './createDomParser';
 export * from './createXmlSaxParser';
 export * from './createXmlDomParser';
 export * from './createHtmlSaxParser';
